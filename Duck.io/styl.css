@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background-color: #87CEEB;
+  }
+  
+  #gameArea {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  #goose {
+    position: absolute;
+    width: 10000px; /* Genişliği artır */
+    height: auto; /* Yüksekliği otomatik yap */
+    transition: transform 0.5s;
+    cursor: pointer;
+  }
+  
